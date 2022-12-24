@@ -24,12 +24,6 @@ console.log("Max:", findMax(arr));
 
 // -------------------- Second task --------------------
 
-let arr2 = [];
-
-for (let i = 0; i < 50; i++) {
-  arr2[i] = Math.floor(Math.random() * 151);
-}
-
 const bubbleSort = (a) => {
   for (let i = 0; i < a.length; i++) {
     for (let j = 0; j < a.length - i - 1; j++) {
@@ -42,19 +36,19 @@ const bubbleSort = (a) => {
   }
 };
 
-console.log(arr2);
-bubbleSort(arr2);
-console.log(arr2);
+console.log(arr);
+bubbleSort(arr);
+console.log(arr);
 
 // -----------------------------------------------------
 
 // -------------------- Fourth task --------------------
 
-let arr3 = [];
-arr3[0] = -5;
+let arr1 = [];
+arr1[0] = -5;
 
 for (let i = 1; i < 70; i++) {
-  arr3[i] = arr3[i - 1] + 2;
+  arr1[i] = arr1[i - 1] + 2;
 }
 
 const binarySearch = (a, num) => {
@@ -76,9 +70,9 @@ const binarySearch = (a, num) => {
   return -1;
 };
 
-console.log(arr3);
-console.log("Index:", binarySearch(arr3, -1));
-console.log("Index:", binarySearch(arr3, -9999999));
+console.log(arr1);
+console.log("Index:", binarySearch(arr1, -1));
+console.log("Index:", binarySearch(arr1, -9999999));
 
 // -----------------------------------------------------
 
